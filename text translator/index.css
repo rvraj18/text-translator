@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: #84cbd1;
+}
+nav img{
+    height: 120px;
+}
+nav h1{
+    font-size: 50px;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 87vh;
+    background-color:rgb(210, 210, 210);
+    display: grid;
+   align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+h2{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px white;
+}
+.textholder{
+    height: 300px;
+    width: 1500px;
+    background-color: #58a5b1;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #0b0a0f;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.textholder textarea{
+    height: 250px;
+    width: 1200px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+  
+}
+::-webkit-scrollbar {
+    width: 15px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #9d95bb; 
+    border-radius: 5px; 
+}
+.langsel{
+    display: grid;
+    gap: 15px;
+}
+select{
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: #9384D1;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    width: 80px;
+}
+#lowerbox{
+    height: 250px;
+    width: 1200px;
+    background-color: #b6f5ffe5;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    overflow-y: hidden;
+    overflow-y: scroll10;
+}
